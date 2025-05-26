@@ -1,4 +1,4 @@
-## Carpetas con diversos ejercicios y ejemplos del uso del zigbee con arduino
+## Carpetas con diversos ejercicios y ejemplos del uso del zigbee
 
 
 - Prueba array
