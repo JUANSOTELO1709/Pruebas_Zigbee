@@ -1,25 +1,35 @@
-## Carpetas con diversos ejercicios 
-# ejemplos del uso del zigbee
+# Ejemplos de Comunicación ZigBee con Arduino
 
+Este repositorio contiene diversos ejemplos prácticos de cómo utilizar módulos ZigBee para establecer comunicación entre dispositivos Arduino. Cada carpeta corresponde a una prueba específica, abordando desde el envío de datos básicos hasta el control de dispositivos como motores DC y sensores ambientales.
 
-- Prueba array
-- prueba bmp_280
-- prueba motor
-- prueba sensor_motor
-- numero & letra
+## 📁 Contenido de Carpetas
 
-### Prueba array
-Es el primer ejemplo para el desarrollo de una comunicacion zigbee, se trata de un ejemplo de como se puede leer un array de datos (numeros aleatorios) y enviarlo a otro dispositivo
+- **`Prueba_array`**  
+  Primer ejemplo para el desarrollo de la comunicación ZigBee. Muestra cómo generar un arreglo de números aleatorios, enviarlos y recibirlos en otro dispositivo.
 
-### Prueba bmp_280
-Es un ejemplo de como se puede leer los datos de un sensor BMP280 y enviarlos a otro
+- **`Prueba_bmp_280`**  
+  Ejemplo de cómo leer datos del sensor ambiental BMP280 (temperatura y presión) y enviarlos a través del enlace ZigBee.
 
+- **`Prueba_motor`**  
+  Control de un motor DC mediante Arduino. El ejemplo incluye el envío de comandos y estados por ZigBee.
 
-### Prueba motor
-Es un ejemplo de como se puede controlar un motor DC con un arduino y enviar los datos
+- **`Prueba_sensor_motor`**  
+  Combina la lectura de un sensor y el control de un motor DC. Se realiza comunicación entre dos dispositivos para coordinar acciones.
 
-### Prueba sensor_motor
-Es un ejemplo de como se puede leer los datos de un sensor y controlar un motor DC con los dos dispositivos
+- **`Numero_letra`**  
+  Envío de un arreglo que contiene tanto números como letras. Se muestran técnicas para:
+  - Transformar números a enteros.
+  - Mantener el orden de los datos tipo carácter.
+  - Enviar y recibir múltiples datos al mismo tiempo.
 
-### Numero & letra
-Es un ejemplo de como se puede leer un array de datos (numeros y letras) y enviar, asi mismo transformar los numeros a enteros, y respetar el orden de los datos de las letras, (pudiendo enviar dos datos a la vez)
+## 🔧 Requisitos
+
+- Dos dispositivos Arduino
+- Módulos ZigBee (como XBee o similares)
+- Sensor BMP280 (para la prueba correspondiente)
+- Motor DC (para las pruebas de control)
+- Software Arduino IDE
+
+## 💡 Objetivo
+
+Facilitar la comprensión y puesta en práctica de diferentes técnicas de comunicación serial inalámbrica entre Arduinos usando ZigBee. Los ejemplos están pensados para ser modificados y adaptados según las necesidades del usuario.
